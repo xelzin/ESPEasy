@@ -48,8 +48,8 @@
 #define DEFAULT_AP_KEY      "configesp"                              // Enter network WPA key for AP (config) mode
 
 // --- Wifi Client Mode -----------------------------------------------------------------------------
-#define DEFAULT_SSID                         "MyHomeSSID"            // Enter your network SSID
-#define DEFAULT_KEY                          "MySuperSecretPassword" // Enter your network WPA key
+#define DEFAULT_SSID                         "HOMENET"            // Enter your network SSID
+#define DEFAULT_KEY                          "xntprotection" // Enter your network WPA key
 #define DEFAULT_SSID2                        ""                      // Enter your fallback network SSID
 #define DEFAULT_KEY2                         ""                      // Enter your fallback network WPA key
 #define DEFAULT_WIFI_INCLUDE_HIDDEN_SSID     false                   // Allow to connect to hidden SSID APs
@@ -62,8 +62,8 @@
 #define DEFAULT_IPRANGE_HIGH                 "255.255.255.255"       // Allowed IP range to access webserver
 #define DEFAULT_IP_BLOCK_LEVEL               1                       // 0: ALL_ALLOWED  1: LOCAL_SUBNET_ALLOWED  2:
 // ONLY_IP_RANGE_ALLOWED
-#define DEFAULT_ADMIN_USERNAME               "admin"
-#define DEFAULT_ADMIN_PASS                   ""
+#define DEFAULT_ADMIN_USERNAME               "xelzin"
+#define DEFAULT_ADMIN_PASS                   "R63cwjd967"
 
 #define DEFAULT_WIFI_CONNECTION_TIMEOUT      10000 // minimum timeout in ms for WiFi to be connected.
 #define DEFAULT_WIFI_FORCE_BG_MODE           false // when set, only allow to connect in 802.11B or G mode (not N)
@@ -611,3 +611,4 @@ static const char DATA_ESPEASY_DEFAULT_MIN_CSS[] PROGMEM = {
 
 
 #endif // ESPEASY_CUSTOM_H
+
